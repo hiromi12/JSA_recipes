@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body,
+header,
+main,
+footer,
+h1,
+h3,
+h4,
+img,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
+section a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(249, 196, 196);
+}
+
+.center {
+  text-align: center;
+}
+
+/* header */
+header {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 4em;
+}
+
+.logo {
+  width: 15%;
+  margin-top: 0.5em;
+}
+
+/* main */
+section {
+  margin-top: 1em;
+  border: 1px solid rgb(250, 138, 138);
+  border-radius: 8px;
+  width: 95%;
+  background-color: rgb(247, 207, 207);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section:nth-child(6) {
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: #000;
+}
+
+.food {
+  margin: 0.75em auto;
+}
+
+.allergen {
+  color: red;
+  margin-left: 1.5em;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+img {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  border-radius: 8px;
+}
+
+.sub {
+  margin-left: 1.25em;
+  color: #000;
+}
+
+.container ul {
+  margin-left: 2.5em;
+  margin-bottom: 0.5em;
+}
+.container ul li {
+  margin-left: 2em;
+}
+.container ol {
+  margin-left: 1.5em;
+  margin-top: 0;
+}
+
+/* bottom menu */
+.bottom {
+  margin: 1em;
+  border-top: 1px solid rgb(255, 180, 180);
+}
+
+.bottom-menu {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.bottom-menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bottom ul {
+  list-style: none;
+  margin-left: 2em;
+  margin-top: 0.25em;
+}
+
+.bottom ul li {
+  margin-bottom: 0.25em;
+}
+
+.bottom ul li a {
+  color: #333;
+}
+
+/* footer */
+footer {
+  padding-top: 1em;
+  border-top: 1px solid rgb(255, 180, 180);
+  font-size: 0.85em;
+  padding-bottom: 1em;
+}
+footer a {
+  color: #000;
+}
+
+/* Tablet */
+@media screen and (min-width: 415px) {
+  body {
+    font-size: 1.25em;
+    width: 100%;
+  }
+  header {
+    height: 90px;
+  }
+  .logo {
+    max-height: 80px;
+    max-width: 80px;
+  }
+  /* main */
+  section {
+    display: block;
+    padding: 1em;
+    max-width: 550px;
+  }
+  .container {
+    padding: 1em;
+  }
+  .allergen {
+    text-align: center;
+  }
+  .dish {
+    max-width: 650px;
+  }
+  .inner {
+    margin: 0 8%;
+  }
+
+  .bottom ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  /* footer */
+  footer {
+    font-size: 0.7em;
+  }
+}
+
+/* PC */
+@media screen and (min-width: 1120px) {
+  .inner {
+    margin: 0 20%;
+  }
+  .bottom {
+    text-align: center;
+  }
+}
