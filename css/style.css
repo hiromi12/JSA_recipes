@@ -37,7 +37,7 @@ body {
 /* header */
 header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  height: 4em;
+  height: 4.2em;
 }
 
 .logo {
@@ -146,9 +146,6 @@ footer a {
   body {
     font-size: 1.25em;
     width: 100%;
-  }
-  header {
-    height: 90px;
   }
   .logo {
     max-height: 80px;
