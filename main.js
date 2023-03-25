@@ -1,8 +1,17 @@
+const form = document.getElementById("contact-form");
+const submitButton = document.getElementById("submit-button");
 
-const menuIcon = document.querySelector('.menu-icon');
-const menu = document.querySelector('.menu');
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
 
-menuIcon.addEventListener('click', () => {
-  menuIcon.classList.toggle('open');
-  menu.classList.toggle('show-menu');
+  const formData = new FormData(event.target);
+
+  const name = formData.get("name");
+  const email = formData.get("email");
+  const subject = formData.get("subject");
+  const message = formData.get("message");
+
+  const mailtoLink = `mailto:jsa201897@gmail.com?subject=${subject}&body=${message}`;
+
+  window.location.href = mailtoLink;
 });

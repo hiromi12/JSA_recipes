@@ -18,27 +18,23 @@
     <a href="index.html"><img src="images/jsa_logo.png" alt="JSA" class="logo"></a>
   </header>
   <main>
-    <div class="container">
-      <h2 class="center">Onigiri</h2>
-      <p class="allergen">Allergens: </p>
-      <img src="images/onigiri.jpeg" alt="onigiri" class="dish">
+    <h2 class="center">Contact</h2>
+    <div class="contact">
+      <form id="contact-form" method="post" action="">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
 
-      <div class="inner">
-        <h3 class="sub">Ingredients:</h3>
-        <ul>
-          <li>Rice</li>
-          <li>Seaweed</li>
-          <p>(Tune & Mayo)</p>
-          <li>Tuna</li>
-          <li>Mayo</li>
-          <li>Soy Souce</li>
-        </ul>
-        <h3 class="sub">Instructions:</h3>
-        <ol>
-          <li>Wash rice and cook with rice cooker.</li>
-          <li>Mix tuna, mayo, and soy souce togather.</li>
-        </ol>
-      </div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" id="submit-button">Send</button>
+      </form>
     </div>
 
     <!-- Memu -->
@@ -59,6 +55,7 @@
     <p class="center">2023 Japanese Student Association</p>
     <p class="center">Designed by <a href="https://www.github.com/hiromi12" target="_blank">Hiromi Honda</a></p>
   </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
