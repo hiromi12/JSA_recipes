@@ -142,7 +142,7 @@ footer a {
 }
 
 /* Tablet */
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 431px) {
   body {
     font-size: 1.25em;
     width: 100%;
