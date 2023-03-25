@@ -177,6 +177,11 @@ button[type="submit"]:hover {
   background-color: #ff5d5d;
 }
 
+.caution {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
 /* footer */
 footer {
   padding-top: 1em;
