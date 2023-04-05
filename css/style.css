@@ -249,6 +249,12 @@ footer a {
     display: inline;
     margin-left: 20px;
   }
+  .bottom ul li:nth-child(1) {
+    margin-left: 0;
+  }
+  .bottom ul {
+    margin: 0;
+  }
   /* footer */
   footer {
     font-size: 0.7em;
