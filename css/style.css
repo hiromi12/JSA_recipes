@@ -56,7 +56,7 @@ section {
   margin-right: auto;
 }
 
-section:nth-child(6) {
+section:nth-child(5) {
   margin-bottom: 1em;
 }
 
@@ -84,21 +84,28 @@ img {
   border-radius: 8px;
 }
 
+.inner {
+  padding: 2%;
+}
+
 .sub {
-  margin-left: 1.25em;
+  margin-left: 0.5em;
   color: #000;
 }
 
 .container ul {
-  margin-left: 2.5em;
+  margin-left: 1.5em;
   margin-bottom: 0.5em;
 }
 .container ul li {
   margin-left: 2em;
 }
 .container ol {
-  margin-left: 1.5em;
+  margin-left: 1em;
   margin-top: 0;
+}
+.container .rice {
+  margin-left: 1em;
 }
 
 /* bottom menu */
