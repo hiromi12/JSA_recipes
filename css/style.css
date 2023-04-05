@@ -84,6 +84,16 @@ img {
   border-radius: 8px;
 }
 
+iframe {
+  display: block;
+  width: 95%;
+  height: 300px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
 .inner {
   padding: 2%;
 }
